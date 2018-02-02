@@ -1,11 +1,11 @@
 const INITIAL_STATE =  {
-  data: {} 
+  categories: [] 
 }
 
 export const data = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case 'SHOW_DATA':
-      return { data: action.data }
+    case 'SAVE_CATEGORIES':
+      return { categories: action.categories }
     default:
       return state
   }
