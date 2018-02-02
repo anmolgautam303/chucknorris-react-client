@@ -6,10 +6,6 @@ import { connect } from 'react-redux'
 class Accordion extends Component {
   constructor(props) {
     super(props)
-
-    this.state = {
-      categories: ['da','ddada','dadada','dadaa','dadad']
-    }
   }
 
   componentWillMount() {
