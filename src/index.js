@@ -7,8 +7,6 @@ import { Provider, connect } from 'react-redux';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import thunk from 'redux-thunk';
 
-//import './index.scss'
-
 const store = createStore(
   data,
   applyMiddleware(thunk)

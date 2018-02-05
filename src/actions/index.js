@@ -11,3 +11,10 @@ export const saveCategories = categories => {
     categories: categories
   }
 }
+
+export const saveJoke = (joke) => {
+  return {
+    type: 'SAVE_JOKE',
+    joke: joke
+  }
+}

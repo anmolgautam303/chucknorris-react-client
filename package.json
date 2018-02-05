@@ -15,6 +15,7 @@
     "file-loader": "^1.1.6",
     "image-webpack-loader": "^3.4.2",
     "inline-svg-react": "^0.1.8",
+    "lodash": "^4.17.4",
     "material-ui": "^0.20.0",
     "material-ui-rating": "^1.4.1",
     "moment": "^2.20.1",

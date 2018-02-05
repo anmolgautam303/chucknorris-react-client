@@ -1,15 +1,18 @@
 import { connect } from 'react-redux'
-import { fetchCategories } from '../helpers/request'
+import { fetchCategories, fetchJokeByCategory } from '../helpers/request'
 import Accordion from '../components/Accordion/Accordion'
-
+ 
 const mapStateToProps = (state, ownProps) => {
-  return {}
+  return { state }
 }
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
     fetchCategories: () => {
-      dispatch(fetchCategories(ownProps.url))
+      dispatch(fetchCategories(ownProps.categoriesUrl))
+    },
+    fetchJokeByCategory: (category) => {
+      dispatch(fetchJokeByCategory(ownProps.jokeUrl.concat(category)))
     }
   }
 }
