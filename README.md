@@ -1,6 +1,6 @@
 # chucknorris-react-client
 
-Web app consuming Chuck Norris' jokes API. Designed using React/Redux.
+Web app consuming Chuck Norris' jokes API and presenting them by categories. Designed using React/Redux.
 
 ### Prerequisites
 
@@ -20,13 +20,15 @@ npm start
 or 
 yarn start
 
-BGo to your browser and type localhost:8081 on your browser address box. It's done!! 
+Now go to your browser and type localhost:8081 on your browser address box. It's done!! 
 
 ## Built With
 
-* [ReactJS](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Redux](https://maven.apache.org/) - Dependency Management
-* [Redux Thunk](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [ReactJS](https://reactjs.org/) - Javascript UI library
+* [Redux](https://redux.js.org/) - Application State Manager
+* [Yarn](https://yarnpkg.com/en/) - Dependency Management
+* [Redux Thunk](https://github.com/gaearon/redux-thunk) - Thunk middleware for Redux
+* [Webpack](https://webpack.js.org/) - Javascript module bundler
 
 ## Versioning
 
@@ -39,9 +41,3 @@ We use [SemVer](http://semver.org/) for versioning.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
