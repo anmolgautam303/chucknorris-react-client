@@ -20,7 +20,7 @@ npm start
 or 
 yarn start
 
-Now go to your browser and type localhost:8081 on your browser address box. It's done!! 
+Now go to your browser and type localhost:8080 on your browser address box. It's done!! 
 
 ## Built With
 
