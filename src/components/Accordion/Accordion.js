@@ -3,6 +3,7 @@ import Collapsible from 'react-collapsible'
 import Joke from '../Joke/Joke'
 import { connect } from 'react-redux'
 
+
 class Accordion extends Component {
   constructor(props) {
     super(props)

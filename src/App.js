@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TitleBar from './components/TitleBar/TitleBar'
-import AccordionContainer from './containers/AccordionContainer'
+import TitleBar from './components/TitleBar/TitleBar';
+import AccordionContainer from './containers/AccordionContainer';
+import InlineSVG from 'svg-inline-react';
 
 import './App.scss'
 
@@ -13,10 +14,13 @@ const URL = {
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <div style={{ textAlign: "center", paddingBottom: "20px" }}><TitleBar /></div>
-        <div style={{ color: "lightBlack", textAlign: "center", fontFamily: 'Heebo, sans-serif' }}><h1>Categories</h1></div>
-        <AccordionContainer categoriesUrl={URL.CATEGORIES} jokeUrl={URL.JOKE}/>
+        <div style={{ color: "lightBlack", textAlign: "center", fontFamily: 'Heebo, sans-serif' }}>
+          <InlineSVG src={require("./images/chuck_norris_cowboy.svg")} />
+          <h1 style={{margin: "0px"}}>Categories</h1>
+        </div>
+        <AccordionContainer categoriesUrl={URL.CATEGORIES} jokeUrl={URL.JOKE} />
       </div>
     )
   }

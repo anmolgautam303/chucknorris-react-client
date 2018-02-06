@@ -1,6 +1,6 @@
-import { connect } from 'react-redux'
-import { fetchCategories, fetchJokeByCategory } from '../helpers/request'
-import Accordion from '../components/Accordion/Accordion'
+import { connect } from 'react-redux';
+import { fetchCategories, fetchJokeByCategory } from '../helpers/request';
+import Accordion from '../components/Accordion/Accordion';
  
 const mapStateToProps = (state, ownProps) => {
   return { state }

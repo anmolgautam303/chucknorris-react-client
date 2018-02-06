@@ -1,4 +1,4 @@
-import { saveCategories, saveJoke } from '../actions'
+import { saveCategories, saveJoke } from '../actions';
 
 function makeRequestURL(url) {
   return fetch(url)

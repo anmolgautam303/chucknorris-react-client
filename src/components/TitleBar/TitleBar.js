@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import AppBar from 'material-ui/AppBar';
 
 import './TitleBar.scss'
@@ -6,7 +6,8 @@ import './TitleBar.scss'
 const TitleBar = () => (
   <AppBar
     title="Chuck Norris Jokes"
-    iconClassNameRight="muidocs-icon-navigation-expand-more"
+    showMenuIconButton={false}
+    zDepth={200}
   />
 );
 
