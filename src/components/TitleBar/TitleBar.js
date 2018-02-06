@@ -7,7 +7,6 @@ const TitleBar = () => (
   <AppBar
     title="Chuck Norris Jokes"
     showMenuIconButton={false}
-    zDepth={200}
   />
 );
 

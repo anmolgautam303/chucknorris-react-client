@@ -12,7 +12,6 @@ export const fetchCategories = (url) => {
         return response.json();
       })
       .then((res) => {
-        console.log(res)
         dispatch(saveCategories(res))
       })
   };

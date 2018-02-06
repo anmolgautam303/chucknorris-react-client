@@ -24,7 +24,6 @@ const saveJoke = (state, { joke }) => {
   const newState = cloneDeep(state);
 
   newState.categories[indexOfO] = {category: joke.category[0], icon_url: joke.icon_url, id: joke.id, url: joke.url, value: joke.value}
-  console.log(newState.categories[indexOfO])
   return newState;
 }
 
