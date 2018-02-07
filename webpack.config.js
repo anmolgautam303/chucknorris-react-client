@@ -11,6 +11,11 @@ const config = {
         contentBase: './dist',
         hot: true
     },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin(),
+        new webpack.EnvironmentPlugin(['NODE_ENV'])
+ 
+    ],
     module: {
         rules: [
             {
