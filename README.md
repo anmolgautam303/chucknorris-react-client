@@ -1,6 +1,7 @@
 # chucknorris-react-client
 
 Web app consuming Chuck Norris' jokes API and presenting them by categories. Designed using React/Redux.
+App Link: https://renamsavio.github.io/chucknorris-react-client/
 
 ### Prerequisites
 
